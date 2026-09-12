@@ -1,0 +1,50 @@
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Package build output
+build/
+dist/
+*.egg-info/
+
+# Local inputs and reproduction outputs (README defaults)
+/data/
+/results/
+/refits/
+/trained_model/
+/trained_*/
+
+# Large data and checkpoint formats, including custom output locations
+*.h5ad
+*.h5
+*.hdf5
+*.zarr/
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Editor and operating-system files
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.log
